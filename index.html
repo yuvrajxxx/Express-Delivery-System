@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Express Delivery System</title>
+</head>
+<body>
+	<h1>Express Delivery System</h1>
+	<form action="calculate_path.php" method="post">
+		<label for="num_nodes">Number of Nodes:</label>
+		<input type="number" id="num_nodes" name="num_nodes" required><br><br>
+		
+		<label for="num_edges">Number of Edges:</label>
+		<input type="number" id="num_edges" name="num_edges" required><br><br>
+		
+		<label for="source_node">Source Node:</label>
+		<input type="number" id="source_node" name="source_node" required><br><br>
+		
+		<label for="destination_node">Destination Node:</label>
+		<input type="number" id="destination_node" name="destination_node" required><br><br>
+		
+		<label for="num_items">Number of Items:</label>
+		<input type="number" id="num_items" name="num_items" required><br><br>
+		
+		<label for="edges">Edges:</label><br>
+		<textarea id="edges" name="edges" rows="5" cols="40" required></textarea><br><br>
+		
+		<input type="submit" value="Calculate Shipping Cost">
+	</form>
+</body>
+</html>
